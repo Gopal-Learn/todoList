@@ -2,7 +2,7 @@
     <div>
         <div class="addTodo">
             <input type="text" v-model.trim="todoText">
-            <button @click="addTodo">增加</button>
+            <button @click="addTodo">增</button>
         </div>
     </div>
 </template>

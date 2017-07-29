@@ -1,17 +1,14 @@
-import * as types from './mutation-type';
+// import * as types from './mutation-type';
 
-export default {
-  add({
-    commit
-  }) {
-    commit(types.INCREMENT);
-  },
-
-
-  
-  dec({
-    commit
-  }) {
-    commit(types.DECMENT);
-  }
-};
+// export default {
+//   add({
+//     commit
+//   }) {
+//     commit(types.INCREMENT);
+//   },
+//   dec({
+//     commit
+//   }) {
+//     commit(types.DECMENT);
+//   }
+// };

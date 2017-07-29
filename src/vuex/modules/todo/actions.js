@@ -1,9 +1,8 @@
 import * as types from './mutation_type';
+
 export default {
-  addTodo({
-    commit
-  }, todoText) {
-    commit(types.ADD_TODO, todoText);
+  addTodo(context, todoText) {
+    context.commit(types.ADD_TODO, todoText);
   },
   doneTodo({
     commit

@@ -3,8 +3,6 @@
         <div class="addTodo">
             <input type="text" v-model.trim="todoText">
             <button @click="addTodo">添加</button>
-
-            
         </div>
     </div>
 </template>

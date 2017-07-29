@@ -6,6 +6,9 @@ export default {
   }) {
     commit(types.INCREMENT);
   },
+
+
+  
   dec({
     commit
   }) {
